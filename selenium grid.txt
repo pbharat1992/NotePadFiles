@@ -1,0 +1,13 @@
+1.download selenium standalone server
+2.download chrome driver
+3.open command prompt
+4.go to the selenium standalone server directory
+5.enter command java -jar selenium-standalone-version.jar -role hub(this is for hub)
+6.open another command prompt
+7.go to the  selenium standalone server directory
+8.enter command-  java -Dwebdriver.chrome.driver="D:\selenium\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.13.0.jar -role node -hub http://192.168.43.246:4444/grid/register(this is for node)
+9.open browser enter  http://192.168.43.246:4444 or localhost:4444
+10.create a maven project in eclipse and import the dependencies
+11.after execution terminate the hub in cmd prompt by pressing ctrl+c
+12.if you want to open another node open another cmd prompt and enter the command 
+   java -Dwebdriver.chrome.driver="D:\selenium\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.13.0.jar -role node -hub http://192.168.43.246:4444/grid/register  -port 5555(or any port number)

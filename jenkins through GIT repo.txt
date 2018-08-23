@@ -1,0 +1,20 @@
+1.go to directory in git bash
+2.enter ls
+3.enter ls -a
+4.enter ls -lat 
+5.enter git status
+6.git add .
+7.and edit any thing in the project and save 
+8.ente git status again
+9.enter git commit -m "write anything here"
+10.git remote add origin url of the project in git 
+11.enter git push  -u  origin master
+
+12. then go to the jenkins directory
+13.java -jar jenkins.war enter
+14.localhost:8080 
+
+
+
+**To generate proper Extent/HTML Report in Jenkins, use following script in Script Console of Jenkins:
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")

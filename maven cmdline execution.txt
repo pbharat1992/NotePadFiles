@@ -1,0 +1,16 @@
+command line execution of maven
+
+
+1.project directory
+2.mvn -version (for checking maven is installed or not)
+3.mvn clean install(for maven build no need to press all the time for executing testcases one  time is enough)
+4.mvn package -DskipTests(for skiping the test cases)
+5.mvn package -Dmaven.test.skip-true(but we should import <maven.test.skip>true</maven.test.skip> in the pom.xml in properties tag)
+6.mvn test-to execute the test cases
+
+
+for executing all the maven classes in a single time we use three plugins
+1.compiler plugin
+2.surefire plugin
+3.source plugin
+we must import all the plugins in pom.xml file we should create src/main/resources folder and create testng.xml file and give the package and suite name

@@ -1,0 +1,14 @@
+jenkins execution through commands
+1.download jenkins.war
+2.go to cmd prompt
+3.go to jenkins dir
+4.enter java -jar jenkins.war
+5.firtst time it will generate one password 
+6.copy the password
+7.open browser enter localhost:8080
+8.paste the password press continue
+9.press suggested plugins
+10.create first admin user 
+11.after login go to jenkins and manage jenkins
+12.in search enter maven and download maven plugins
+13. and install dont close the cmd prompt
